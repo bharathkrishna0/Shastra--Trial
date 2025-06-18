@@ -1,0 +1,46 @@
+.events {
+    padding: 80px 20px;
+    background: #0d0d0d;
+    color: white;
+    text-align: center;
+  }
+  
+  .events-heading {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: #00bfff;
+  }
+  
+  .events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .event-card {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 16px;
+    padding: 30px 20px;
+    width: 280px;
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 191, 255, 0.3);
+  }
+  
+  .event-card h3 {
+    font-size: 1.5rem;
+    color: #00bfff;
+    margin-bottom: 10px;
+  }
+  
+  .event-card p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
