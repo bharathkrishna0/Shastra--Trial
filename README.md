@@ -20,15 +20,6 @@ Built with ❤️ using **ReactJS** + **Vite**, this site showcases events, hero
 
 ---
 
-## 📁 Folder Structure
-
-src/
-│
-├── assets/ # Static assets like images
-├── components/ # Reusable components (Navbar, Hero, Events, etc.)
-├── App.jsx # Main entry
-├── index.css # Global styles
-└── main.jsx # App renderer
 
 
 
