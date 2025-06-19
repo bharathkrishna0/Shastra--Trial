@@ -1,12 +1,43 @@
-# React + Vite
+# 🚀 Shastra - Tech Fest Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official frontend repository for **Shastra**, our college's annual tech fest!  
+Built with ❤️ using **ReactJS** + **Vite**, this site showcases events, hero sections, and more — all designed with creativity and performance in mind.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌌 Website Preview
 
-## Expanding the ESLint configuration
+![Shastra Preview](https://user-images.githubusercontent.com/106847042/324034168-8e231e1e-fb1e-4c4c-b083-24454d00240d.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ ReactJS
+- ⚡ Vite
+- 🎨 CSS Modules
+- ☁️ Hosted on Netlify
+
+---
+
+## 📁 Folder Structure
+
+src/
+│
+├── assets/ # Static assets like images
+├── components/ # Reusable components (Navbar, Hero, Events, etc.)
+├── App.jsx # Main entry
+├── index.css # Global styles
+└── main.jsx # App renderer
+
+
+
+## 📦 Installation
+
+Clone the repo and run it locally:
+
+```bash
+git clone https://github.com/bharathkrishna0/Shastra--Trial.git
+cd Shastra--Trial
+npm install
+npm run dev
